@@ -1,0 +1,29 @@
+body{background: url(../images/bg.jpg)}
+#logo{margin: 20px; display: block; width: 180px}
+#menu li{float: left;}
+#menu li a{display: block; color: #fff; text-decoration: none;font-family: Arial, Helvetica, sans-serif;}
+.inicio{background: #7e57cc}
+.quienes{background: #02b8e3}
+.servicios{background: #8dca00}
+.contacto{background: #fe9400}
+.exito{background: #d92469}
+.galeria{background: #f8c40d}
+.emenu{padding: 20px 10px;margin: 0 3px;-webkit-border-top-left-radius: 3px;-webkit-border-top-right-radius: 3px;-moz-border-radius-topleft: 3px;-moz-border-radius-topright: 3px;border-top-left-radius: 3px;border-top-right-radius: 3px;}
+.emenu:hover{height: 10px}
+#content{background: #fff; min-height: 100px; float: left; box-shadow: inset 0px 11px 8px -10px #CCC,inset 0px -11px 8px -10px #CCC; padding: 20px 0}
+.subtitulohome{    font-family: arial;
+    color: #02b8e3;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;}
+
+@media only screen and (min-width: 961px) and (max-width: 1200px) {
+}
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+}
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+}
+@media only screen and (max-width: 420px) {
+
+}
