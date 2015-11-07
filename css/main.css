@@ -11,13 +11,13 @@ body{background: url(../images/bg.jpg)}
 .emenu{padding: 20px 10px;margin: 0 3px;-webkit-border-top-left-radius: 3px;-webkit-border-top-right-radius: 3px;-moz-border-radius-topleft: 3px;-moz-border-radius-topright: 3px;border-top-left-radius: 3px;border-top-right-radius: 3px;}
 .emenu:hover{height: 10px}
 #content{background: #fff; min-height: 100px; float: left; box-shadow: inset 0px 11px 8px -10px #CCC,inset 0px -11px 8px -10px #CCC; padding: 20px 0}
-.subtitulohome{    font-family: arial;
-    color: #02b8e3;
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 20px;
-    text-align: center;}
-
+.subtitulohome{    font-family: arial;color: #02b8e3;font-size: 20px;font-weight: 400;margin-top: 20px;text-align: center;}
+.phome{color: #969494; font-size: 15px; margin-top: 20px; line-height: normal; font-family: arial; text-align: center}
+#carrusel{margin-bottom: 50px}
+.ahome{color: #4f4e4f;font: 21px/23px Arial, Helvetica, sans-serif; text-decoration: none}
+.ahome:hover{color: #02b8e3}
+footer{float: left; width: 100%;padding: 20px 0;background: #fafafa; display: block;}
+.copy{color: #969494; text-align: center; font-family: Arial; font-size: 10px}
 @media only screen and (min-width: 961px) and (max-width: 1200px) {
 }
 @media only screen and (min-width: 769px) and (max-width: 960px) {
