@@ -1,0 +1,5 @@
+[08-Nov-2015 20:15:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/josefaki/public_html/gymbaby/contacto.php:36
+Stack trace:
+#0 /home/josefaki/public_html/gymbaby/contacto.php(36): PDO->__construct('mysql:host=127....', 'root', '')
+#1 {main}
+  thrown in /home/josefaki/public_html/gymbaby/contacto.php on line 36
