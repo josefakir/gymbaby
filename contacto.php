@@ -4,6 +4,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<?php 
+		$titulo = "Contacto - Gym Baby At Home";
+	?>
 	<?php include("head.php"); ?>
 </head>
 <body>
@@ -27,10 +30,16 @@
 			<div class="clear"></div>
 			<div class="two-third column">
 				<h1 class="titulohome">Contacto</h1>
-				<form method="post" action="enviar.php">
+				<form id="form" method="post" action="email.php">
 					<p class="parrafo"><label>Nombre:</label><input type="text" name="nombre"></p>
 					<p class="parrafo"><label>Correo:</label><input type="text" name="correo"></p>
-					<p class="parrafo"><label>Cómo llegaste a GymBaby At Home:</label><select name="como"></select></p>
+					<p class="parrafo"><label>Cómo llegaste a GymBaby At Home:</label><select name="enteraste">
+						<option value="">Seleccione</option>
+						<option value="Recomendación">Recomendación</option>
+						<option value="itio Web">Sitio Web</option>
+						<option value="Redes Sociales">Redes Sociales</option>
+
+					</select></p>
 					<p class="parrafo"><label>Estado:</label><select id="estado" name="estado">
 						<?php 
 							$conn = new PDO('mysql:host='.$host.';dbname='.$db, $user, $pass);
@@ -45,10 +54,13 @@
 							}
 						?>
 					</select></p>
+					<img id="loading" src="images/loading.gif" alt="Cargando">
 					<p class="parrafo"><label>Delegación / Municipio:</label><select id="municipio" name="municipio"></select></p>
-					<p class="parrafo"><label>Edad de tu bebé:</label><select name="edad"></select></p>
+					<p class="parrafo"><label>Edad de tu bebé:</label>
+					<input type="text" name="edad"></p>
 					<p class="parrafo"><label>Comentarios:</label><textarea name="comentarios"></textarea></p>
-					<p><input type="submit" value="enviar"></p>
+					<img id="loading2" src="images/loading.gif" alt="Cargando">
+					<p><input id="boton" type="submit" value="enviar"></p>
 
 					<p class="parrafo">También te puedes comunicar al 55 38 35 15 65 (disponible en whatsapp)</p>
 				</form>

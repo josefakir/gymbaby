@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<?php 
+		$titulo = "Galería - Gym Baby At Home";
+	?>
 	<?php include("head.php"); ?>
+	<script>
+	$(document).ready(function(){
+		$('#layout').layout();
+	})
+	</script>
 </head>
 <body>
 	<header>

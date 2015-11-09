@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<?php 
+		$titulo = "Casos de éxito - Gym Baby At Home";
+	?>
 	<?php include("head.php"); ?>
 </head>
 <body>

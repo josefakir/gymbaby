@@ -47,11 +47,13 @@ label{display: block; float: left; width: 230px}
 .quote p{font-family: 'Alegreya', serif;font-size: 24px;color: #b4b4b4;font-weight: 400;line-height: 40px;font-style: italic;text-indent: 100px;position: relative;}
 .quote span{font-family: 'Passion One', cursive;color: #BC93C8;font-size: 140px;position: absolute;top: 0;}
 .single-column .b-by-b-item {width: 100%!important;}
-.fotosemblanza{-webkit-border-radius: 190px;-moz-border-radius: 190px;border-radius: 190px; width: 50%; margin: 0 auto; display: block;-webkit-box-shadow: 7px 7px 10px 0px rgba(50, 50, 50, 0.75);
--moz-box-shadow:    7px 7px 10px 0px rgba(50, 50, 50, 0.75);
-box-shadow:         7px 7px 10px 0px rgba(50, 50, 50, 0.75);}
+.fotosemblanza{-webkit-border-radius: 190px;-moz-border-radius: 190px;border-radius: 190px; width: 50%; margin: 0 auto; display: block;-webkit-box-shadow: 7px 7px 10px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow:7px 7px 10px 0px rgba(50, 50, 50, 0.75);box-shadow:7px 7px 10px 0px rgba(50, 50, 50, 0.75);}
 #social{position: absolute; right: 0; top: 40px}
 #social li{float: left; }
+span.error{color: red}
+#loading{position: absolute;position: absolute;margin-top: 20px;margin-left: 203px;width: 20px;display: none ;}
+#loading2{    position: absolute;
+    display: none;}
 /* GALERÍA */
 @media (min-width: 0px) and (max-width: 480px) {
   #layout .b-by-b-item {
