@@ -1,0 +1,1 @@
+<p class="copy">&copy; Gymbabyathome 2016</p>

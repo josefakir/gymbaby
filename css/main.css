@@ -11,19 +11,77 @@ body{background: url(../images/bg.jpg)}
 .emenu{padding: 20px 10px;margin: 0 3px;-webkit-border-top-left-radius: 3px;-webkit-border-top-right-radius: 3px;-moz-border-radius-topleft: 3px;-moz-border-radius-topright: 3px;border-top-left-radius: 3px;border-top-right-radius: 3px;}
 .emenu:hover{height: 10px}
 #content{background: #fff; min-height: 100px; float: left; box-shadow: inset 0px 11px 8px -10px #CCC,inset 0px -11px 8px -10px #CCC; padding: 20px 0}
-.subtitulohome{    font-family: arial;color: #02b8e3;font-size: 20px;font-weight: 400;margin-top: 20px;text-align: center;}
+.subtitulohome{font-family: arial;color: #02b8e3;font-size: 20px;font-weight: 400;margin-top: 20px;text-align: center;}
+.subtitulohometal{font-family: arial;color: #02b8e3;font-size: 20px;font-weight: 400;margin-top: 20px;}
+.titulohome{font-family: arial;color: #02b8e3;font-size: 25px;font-weight: 400;margin-top: 20px; margin-bottom: 20px}
 .phome{color: #969494; font-size: 15px; margin-top: 20px; line-height: normal; font-family: arial; text-align: center}
 #carrusel{margin-bottom: 50px}
 .ahome{color: #4f4e4f;font: 21px/23px Arial, Helvetica, sans-serif; text-decoration: none}
 .ahome:hover{color: #02b8e3}
 footer{float: left; width: 100%;padding: 20px 0;background: #fafafa; display: block;}
+.w50{width: 50%; float: left; height: 290px}
+.w50 img{width: 100%}
 .copy{color: #969494; text-align: center; font-family: Arial; font-size: 10px}
+.naranja{background: #fe9400; color: #fff; height: 290px}
+.contquienes{width: 90%; padding: 5%; font-family: arial}
+.f12{font-size: 12px;}
+.f24{font-size: 24px}
+.lh30{line-height: 30px;}
+.verde{background: #8dca00;color: #fff; height: 290px}
+.azul{background: #02b8e3;color: #fff; height: 290px}
+.rosa{background: #d92469;color: #fff; height: 290px}
+.separadorquienes{height: 20px}
+.lh20{line-height: 20px;}
+.lh16{line-height: 16px;}
+#listaventajas{padding-left: 40px; list-style: decimal;}
+.scroll{height: 190px;overflow-y: scroll;}
+.parrafo{color: #969494;font-size: 15px;margin-top: 20px;line-height: normal;font-family: arial;}
+.listasemblanza{color: #969494;font-size: 15px;margin-top: 20px;line-height: normal;font-family: arial; padding-left: 40px; list-style: outside;}
+.listasemblanza li{margin-bottom: 10px}
+.semblanza{color: #969494;font-size: 12px;margin-top: 5px;line-height: normal;font-family: arial; font-style: italic;}
+input[type=text]{width: 200px;height: 25px;}
+select{width: 200px;height: 25px;}
+textarea{width: 200px;height: 40px;}
+label{display: block; float: left; width: 230px}
+.quote{background: #fff;padding: 30px;border-radius: 5px;box-shadow: inset 0 2px 0 rgba(188, 147, 200, 0.7), -5px -4px 25px rgba(0, 0, 0, 0.3);width: 80%; margin: 30px auto;position: relative;}
+.quote p{font-family: 'Alegreya', serif;font-size: 24px;color: #b4b4b4;font-weight: 400;line-height: 40px;font-style: italic;text-indent: 100px;position: relative;}
+.quote span{font-family: 'Passion One', cursive;color: #BC93C8;font-size: 140px;position: absolute;top: 0;}
+.single-column .b-by-b-item {width: 100%!important;}
+.fotosemblanza{-webkit-border-radius: 190px;-moz-border-radius: 190px;border-radius: 190px; width: 50%; margin: 0 auto; display: block;-webkit-box-shadow: 7px 7px 10px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    7px 7px 10px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         7px 7px 10px 0px rgba(50, 50, 50, 0.75);}
+#social{position: absolute; right: 0; top: 40px}
+#social li{float: left; }
+/* GALERÍA */
+@media (min-width: 0px) and (max-width: 480px) {
+  #layout .b-by-b-item {
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  #layout .b-by-b-item {
+    width: 50%;
+  }
+}
+@media (min-width: 1025px) {
+  #layout .b-by-b-item {
+    width: 33.33%;
+  }
+}
+/* MEDIAQUIERIES */
 @media only screen and (min-width: 961px) and (max-width: 1200px) {
 }
 @media only screen and (min-width: 769px) and (max-width: 960px) {
+
 }
 @media only screen and (min-width: 421px) and (max-width: 768px) {
+	#menu li a{font-size: 12px}
+	.emenu{margin: 0; padding:20px 5px;}
+
 }
 @media only screen and (max-width: 420px) {
+	#menu li a{font-size: 9px}
+	.emenu{margin: 0; padding:20px 3px;}
+	#logo{margin: 0}
 
 }

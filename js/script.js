@@ -6,4 +6,13 @@ $(document).ready(function() {
       paginationSpeed : 400,
       singleItem:true
   });
+  $('#layout').layout();
+  	$('#estado').change(function(){
+  		$.ajax({
+  			url : 'obtener-municipios.php?i='+$(this).val(),
+  			success : function(result){
+  				$('#municipio').html(result);
+  			}
+  		})
+  	})
 });
